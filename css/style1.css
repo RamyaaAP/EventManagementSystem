@@ -1,0 +1,134 @@
+/* General body and layout */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styling */
+header {
+    background-color: #003366;
+    padding: 15px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand h2 {
+    color: #ffffff;
+    margin: 0;
+    font-size: 28px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Profile container */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 32px;
+    color: #003366;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Profile Section */
+.profile-section {
+    margin-bottom: 30px;
+}
+
+.profile-section h2 {
+    color: #003366;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.profile-section strong {
+    color: #003366;
+}
+
+/* Events Section */
+.events-section h2 {
+    color: #003366;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.events-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.events-section li {
+    font-size: 16px;
+    color: #333333;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.events-section li:last-child {
+    border-bottom: none;
+}
+
+.events-section p {
+    font-size: 16px;
+    color: #ff6600;
+}
+
+/* Feedback link */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #003366;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #ffcc00;
+    color: #003366;
+}

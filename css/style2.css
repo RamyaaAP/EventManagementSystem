@@ -1,0 +1,79 @@
+/* General body and layout */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+/* Full page container to center content vertically and horizontally */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure full viewport height */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.ticket-container {
+    width: 100%;
+    max-width: 500px;  /* Limit the width of the ticket box */
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centering header and ticket details */
+}
+
+/* Header Styling */
+h1 {
+    color: #003366;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+/* Ticket box styling */
+.ticket {
+    background-color: #e9f7ff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text inside the ticket box */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for ticket box */
+.ticket:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Ticket detail text styling */
+.ticket p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.ticket p strong {
+    color: #003366;
+    font-weight: bold;
+}
+
+
+.no-tickets {
+    font-size: 18px;
+    color: #ff6600;
+    font-weight: bold;
+    padding: 20px;
+    background-color: #fff3e6;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center; 
+}

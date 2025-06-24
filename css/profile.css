@@ -1,0 +1,134 @@
+/* General body and layout */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #003366;
+    padding: 15px 0;
+}
+
+.navbar .navbar-brand h2 {
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0;
+}
+
+.navbar .nav navbar-right li a {
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 15px;
+}
+
+.navbar .nav navbar-right li a:hover {
+    background-color: #0056b3;
+    border-radius: 5px;
+}
+
+/* Profile container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styling */
+h1 {
+    color: #003366;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* Profile Section Styling */
+.profile-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.profile-section h2 {
+    color: #003366;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.profile-section p {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.profile-section p strong {
+    color: #003366;
+    font-weight: bold;
+}
+
+/* Events Section Styling */
+.events-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.events-section h2 {
+    color: #003366;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.events-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.events-section li {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.events-section li::before {
+    content: "•";
+    color: #003366;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.events-section p {
+    font-size: 18px;
+    color: #ff6600;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Feedback Link Styling */
+a {
+    display: inline-block;
+    font-size: 18px;
+    color: #003366;
+    padding: 10px 20px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+a:hover {
+    background-color: #003366;
+    color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
